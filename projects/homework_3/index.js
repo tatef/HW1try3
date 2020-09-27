@@ -18,7 +18,7 @@
  */
 function isAllTrue(array, fn) {
   if (!Array.isArray(array) || !array.length) {
-    throw new Error('emty array');
+    throw new Error('empty array');
   }
   if (typeof fn !== 'function') {
     throw new Error('fn is not a function');
@@ -49,7 +49,7 @@ function isAllTrue(array, fn) {
  */
 function isSomeTrue(array, fn) {
   if (!Array.isArray(array) || !array.length) {
-    throw new Error('emty array');
+    throw new Error('empty array');
   }
   if (typeof fn !== 'function') {
     throw new Error('fn is not a function');
